@@ -1,7 +1,12 @@
 import React from 'react'
-
+import cls from './style.module.scss'
 export const Home = () => {
-  return <h1>Home
+  return (
+    <>
+      <div className='container'>
 
-  </h1>
+      </div>
+
+    </>
+  )
 }

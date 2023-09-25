@@ -1,9 +1,9 @@
 import React from 'react'
 import cls from './style.module.scss'
 
-const GreenButton = () => {
+const GreenButton = ({ children }) => {
     return (
-        <button className={cls.greenButton}>Sign Up</button>
+        <button className={cls.greenButton}>{children}</button>
     )
 }
 

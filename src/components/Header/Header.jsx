@@ -37,12 +37,12 @@ export const Header = () => {
                 </li>
               </ul>
             </div>
-            <div className={cls.authBtn}><LightButton /></div>
-            <div className={cls.authBtn}><GreenButton /></div>
+            <div className={cls.authBtn}><LightButton>Sign In</LightButton></div>
+            <div className={cls.authBtn}><GreenButton>Sign Up</GreenButton></div>
             <button className={cls.modeBtn}><Mode /></button>
           </div>
           <button className={cls.burgerBtn} onClick={toggleNav}>
-            <Burger />
+            <Burger className={cls.burger} />
           </button>
         </div>
       </header >
