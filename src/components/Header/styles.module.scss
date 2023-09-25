@@ -1,0 +1,133 @@
+.header {
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+}
+
+.rightContent {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar {
+    margin-right: 24px;
+}
+
+.navbarList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    column-gap: 32px;
+}
+
+.navLink {
+    list-style: none;
+    color: black;
+    padding: 10px;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.navLink.active {
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.modeBtn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 24px;
+}
+
+.burgerBtn {
+    display: none;
+}
+
+.authBtn {
+    margin-left: 24px;
+}
+
+@media screen and (max-width: 925px) {
+    .navbarList {
+        column-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .rightContent {
+        position: absolute;
+        top: 110%;
+        right: 0;
+        display: none;
+        // display: block;
+        padding: 24px;
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: 10px 10px 71px -29px rgba(140, 140, 140, 0.75);
+    }
+
+    .rightContent.open {
+        display: block;
+    }
+
+    .navLink {
+        padding: 0;
+        row-gap: 16px;
+    }
+
+    .navbarList {
+        flex-direction: column;
+        row-gap: 15px;
+        column-gap: 0;
+    }
+
+    .burgerBtn {
+        display: block;
+        margin-left: 24px;
+    }
+
+    .modeBtn {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .authBtn {
+        margin-top: 16px;
+        border: none;
+        margin-left: 0;
+
+
+    }
+
+    .headerContent {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10px;
+        position: relative;
+
+    }
+
+}
+
+@media screen and (max-width: 550px) {}

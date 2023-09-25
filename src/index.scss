@@ -1,0 +1,25 @@
+@import './sass/variables.scss';
+@import './sass/fonts.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: $main-font-family;
+  background-color: #fff;
+  color: $main-color;
+}
+
+a {
+  text-decoration: none;
+  color: $main-color;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
