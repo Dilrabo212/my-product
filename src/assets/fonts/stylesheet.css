@@ -1,35 +1,26 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-Medium.woff2') format('woff2'),
-        url('Roboto-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url('Inter-Regular.woff2') format('woff2'),
-        url('Inter-Regular.woff') format('woff');
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.woff2') format('woff2'),
+        url('Poppins-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-Bold.woff2') format('woff2'),
-        url('Roboto-Bold.woff') format('woff');
+    font-family: 'Poppins';
+    src: url('Poppins-Bold.woff2') format('woff2'),
+        url('Poppins-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Inter';
-    src: url('Inter-Medium.woff2') format('woff2'),
-        url('Inter-Medium.woff') format('woff');
-    font-weight: 500;
+    font-family: 'Poppins';
+    src: url('Poppins-SemiBold.woff2') format('woff2'),
+        url('Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }

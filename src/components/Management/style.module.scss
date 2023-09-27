@@ -1,10 +1,13 @@
+.management {
+    width: 100%;
+
+}
+
 .flex {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     column-gap: 30.5px;
-    margin-top: 25px;
     margin-bottom: 114.8px;
 }
 
@@ -12,14 +15,24 @@
     width: 50%;
 }
 
+.subTitle {
+    margin-bottom: 10px;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 .mainTitle {
     color: #22343D;
     font-family: Poppins;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
-    margin-bottom: 16px;
+    line-height: normal;
+    margin-bottom: 100px;
 }
 
 .mainText {
@@ -31,14 +44,11 @@
     line-height: 28px;
     width: 458px;
     flex-shrink: 0;
+    margin-bottom: 25px;
 }
 
 .rightContent {
     width: 40%;
-}
-
-.rightContent>img {
-    width: 450px;
 }
 
 .flexBtn {
@@ -50,30 +60,42 @@
 @media screen and (max-width:1300px) {
     .flex {
         column-gap: 20.5px;
+
     }
 
     .leftContent {
-        width: 40%;
+        width: 50%;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+
+    .mainText {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:1130px) {
+    .flex {
+        column-gap: 20.5px;
     }
 }
 
 @media screen and (max-width:1060px) {
-    .mainText {
-        width: 350px;
+    .mainTitle {
+        margin-bottom: 50px;
     }
 
     .flex {
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
     }
 
-    .leftContent {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
 
     .flexBtn {
         display: flex;
@@ -81,12 +103,23 @@
         margin-top: 25px;
     }
 
-    .rightContent {
+    .rightContent>img {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .leftContent {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 25px;
+        margin: 0 auto;
+        text-align: center;
+
     }
 }

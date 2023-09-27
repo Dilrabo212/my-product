@@ -1,0 +1,135 @@
+.collaborative {
+    width: 100%;
+
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 30.5px;
+    margin-bottom: 114.8px;
+}
+
+.leftContent {
+    width: 45%;
+    margin-right: 85px;
+}
+
+.subTitle {
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.mainTitle {
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+
+.text {
+    width: 486px;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.rightContent {
+    width: 45%;
+}
+
+@media screen and (max-width:1220px) {
+    .leftContent {
+        margin-right: 30px;
+    }
+
+    .text {
+        width: 400px;
+    }
+
+    .rightContent>img {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .leftContent {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .rightContent {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width:1300px) {
+    .flex {
+        column-gap: 20.5px;
+
+    }
+
+    .leftContent {
+        width: 50%;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .mainText {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:1130px) {
+    .flex {
+        column-gap: 20.5px;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .mainTitle {
+        margin-bottom: 50px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+
+    .flexBtn {
+        display: flex;
+        column-gap: 30.5px;
+        margin-top: 25px;
+    }
+
+    .rightContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 97px;
+        margin-bottom: 80px;
+    }
+}

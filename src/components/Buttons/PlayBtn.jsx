@@ -3,8 +3,10 @@ import { PlayIcon } from '../../icons/svj'
 const PlayBtn = ({ children }) => {
     return (
         <button className={cls.play}>
-            <PlayIcon />
-            {children}
+            <span className={cls.playText}>
+                <span className={cls.playIcon}><PlayIcon /></span>
+                <span> {children}</span>
+            </span>
         </button>
     )
 }

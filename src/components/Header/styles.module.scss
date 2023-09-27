@@ -133,3 +133,9 @@
     }
 
 }
+
+@media screen and (max-width:950px) {
+    .navbarList {
+        column-gap: 12px;
+    }
+}
