@@ -8,6 +8,8 @@ import Collaborative from '../../components/Collaborative/Collaborative'
 import hero from '../../assets/images/amico1.png'
 import Prosses from '../../components/Prosses/prosses'
 import Strategies from '../../components/Strategies/Strategies'
+import Pricing from '../../components/Pricing/Pricing'
+import Clients from '../../components/Clients /Clients '
 export const Home = () => {
   return (
     <>
@@ -36,6 +38,8 @@ export const Home = () => {
       <Collaborative />
       <Prosses />
       <Strategies />
+      <Pricing />
+      <Clients />
     </>
   )
 }
