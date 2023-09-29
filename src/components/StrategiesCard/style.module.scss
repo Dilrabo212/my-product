@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .strTitle {
@@ -16,7 +16,7 @@
 }
 
 .strText {
-    max-width: 693px;
+    width: 693px;
     color: #22343D;
     font-family: Poppins;
     font-size: 16px;
@@ -35,7 +35,7 @@
 }
 
 .strCard {
-    max-width: 450px;
+    width: 450px;
     // height: 359px;   
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@
 }
 
 .nameStr {
-    max-width: 294px;
+    width: 294px;
     height: 70px;
     flex-shrink: 0;
     color: #22343D;
@@ -78,7 +78,7 @@
 }
 
 .nameStrChecked {
-    max-width: 294px;
+    width: 294px;
     height: 70px;
     flex-shrink: 0;
     color: #02897A;
@@ -100,7 +100,7 @@
 
 @media screen and (max-width:1460px) {
     .strCard {
-        max-width: 400px;
+        width: 400px;
         column-gap: 32px;
 
     }
@@ -108,7 +108,7 @@
 
 @media screen and (max-width:1310px) {
     .strCard {
-        max-width: 370px;
+        width: 370px;
 
 
     }
@@ -116,7 +116,7 @@
 
 @media screen and (max-width:1220px) {
     .strCard {
-        max-width: 350px;
+        width: 350px;
         column-gap: 18px;
 
     }
@@ -124,7 +124,7 @@
 
 @media screen and (max-width:1160px) {
     .strCard {
-        max-width: 330px;
+        width: 330px;
         column-gap: 18px;
 
     }
@@ -133,7 +133,7 @@
 @media screen and (max-width:1101px) {
 
     .strCard {
-        max-width: 450px;
+        width: 450px;
         padding: 18px;
         margin-bottom: 40px;
         // margin: auto;
@@ -154,7 +154,7 @@
     }
 
     .strText {
-        max-width: 450px;
+        width: 450px;
     }
 
     .info {

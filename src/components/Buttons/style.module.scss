@@ -45,3 +45,17 @@
 .playIcon {
     margin-right: 5px;
 }
+
+@media screen and (max-width:950px) {
+    .greenButton {
+        padding: 10px 20px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .lightButton {
+        padding: 10px 20px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

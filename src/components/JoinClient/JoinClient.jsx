@@ -1,6 +1,7 @@
 import React from 'react'
 import cls from './style.module.scss'
 import LightButton from '../Buttons/LightButton'
+import bgImg from '../../assets/images/screen.png'
 const JoinClient = () => {
     return (
         <div className={cls.join}>
@@ -8,14 +9,16 @@ const JoinClient = () => {
                 <div className={cls.wrp}>
                     <div className={cls.textContent}>
                         <h1 className={cls.textContentTitle}>
-                            Join 100 Compannies who boost their business with Product
+                            Join 100 Compannies who boost their business withimgContent
                         </h1>
-                        <h1 className={cls.textContentTitle}>
+                        <h1 className={cls.product}>
                             Product
                         </h1>
-                        <LightButton>Get This</LightButton>
+                        <div> <LightButton>Get This</LightButton></div>
                     </div>
-                    <div className={cls.imgContent}></div>
+                    <div className={cls.imgContent}>
+                        <img src={bgImg} alt="img" />
+                    </div>
                 </div>
             </div>
 

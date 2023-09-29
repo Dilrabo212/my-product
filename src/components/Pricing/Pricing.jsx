@@ -1,6 +1,6 @@
 import React from 'react'
 import cls from './style.module.scss'
-import GreenButton from '../Buttons/GreenButton'
+import PricingCard from '../PricingCard/PricingCard'
 const Pricing = () => {
     return (
         <div className={cls.pricing}>
@@ -10,22 +10,26 @@ const Pricing = () => {
                     <p className={cls.pricingText}>We offer competitive price</p>
                 </div>
                 <div className={cls.pricingTable}>
-                    <div className={cls.preCart}>
-                        <div className={cls.cart}>Free</div>
-                        <p className={cls.description}>Brief price description</p>
-                        <span className={cls.flex}>
-                            <span className={cls.price}>0</span>
-                            <span className={cls.dollor}>
-                                <span className={cls.namePre}>$</span>
-                                <span className={cls.perMonth}>Per / month</span>
-                            </span>
-                        </span>
-                        <h3 className={cls.infoPre}>Only 2 Operators</h3>
-                        <h3 className={cls.infoPre}>Notifications</h3>
-                        <h3 className={cls.infoPre}>Landing Pages</h3>
-                        <button className={cls.grenBtn}> Order Now</button>
-                    </div>
-                    {/* //!preCartActive */}
+                    <PricingCard
+                        title={'Free'}
+                        description={'Brief price description'}
+                        price={0}
+                        operators={2}
+                    />
+                    <PricingCard
+                        title={'Standard'}
+                        description={'Brief price description'}
+                        price={10}
+                        operators={10}
+                    />
+                    <PricingCard
+                        title={'Premium'}
+                        description={'Brief price description'}
+                        price={15}
+                        operators={15}
+                    />
+
+                    {/*
                     <div className={cls.preCartActive}>
                         <div className={cls.cartActive}>Standard</div>
                         <p className={cls.descriptionActive}>Brief price description</p>
@@ -41,7 +45,7 @@ const Pricing = () => {
                         <h3 className={cls.infoPreActive}>Landing Pages</h3>
                         <button className={cls.grenBtnActive}> Order Now</button>
                     </div>
-                    {/* //!preCartActive */}
+                   
                     <div className={cls.preCart}>
                         <div className={cls.cart}>Premium</div>
                         <p className={cls.description}>Brief price description</p>
@@ -56,7 +60,7 @@ const Pricing = () => {
                         <h3 className={cls.infoPre}>Notifications</h3>
                         <h3 className={cls.infoPre}>Landing Pages</h3>
                         <button className={cls.grenBtn}> Order Now</button>
-                    </div>
+                    </div>*/}
                 </div>
 
             </div>

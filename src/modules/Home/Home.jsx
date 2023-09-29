@@ -10,6 +10,7 @@ import Prosses from '../../components/Prosses/prosses'
 import Strategies from '../../components/Strategies/Strategies'
 import Pricing from '../../components/Pricing/Pricing'
 import Clients from '../../components/Clients /Clients '
+import JoinClient from '../../components/JoinClient/JoinClient'
 export const Home = () => {
   return (
     <>
@@ -40,6 +41,7 @@ export const Home = () => {
       <Strategies />
       <Pricing />
       <Clients />
+      <JoinClient />
     </>
   )
 }

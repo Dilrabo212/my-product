@@ -49,6 +49,7 @@
 
 .rightContent {
     width: 40%;
+    margin: 0 auto;
 }
 
 .flexBtn {
@@ -104,12 +105,12 @@
     }
 
     .rightContent>img {
-        width: 450px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        width: 400px;
+
+    }
+
+    .rightContent {
+        margin: 0 auto;
     }
 
     .leftContent {

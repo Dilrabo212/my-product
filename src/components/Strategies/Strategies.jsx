@@ -4,6 +4,7 @@ import card1 from '../../assets/images/image.png'
 import card2 from '../../assets/images/image (1).png'
 import card3 from '../../assets/images/image (2).png'
 import { Dots } from '../../icons/svj'
+import StrategisCard from '../StrategiesCard/StrategisCard'
 const Strategies = () => {
     return (
         <div className='container'>
@@ -15,7 +16,27 @@ const Strategies = () => {
                     <p className={cls.strText}>We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
                 </div>
                 <div className={cls.Cards}>
-                    <div className={cls.strCard}>
+
+                    <StrategisCard
+                        img={card1}
+                        name="Wahid Ari"
+                        date="03 March 2019"
+                        description="Increasing Prosperity With Positive"
+                    />
+                    <StrategisCard
+                        img={card2}
+                        name="Wahid Ari"
+                        date="03 March 2019"
+                        description="Increasing Prosperity With Positive"
+                    />
+                    <StrategisCard
+                        img={card3}
+                        name="Wahid Ari"
+                        date="03 March 2019"
+                        description="Increasing Prosperity With Positive"
+                    />
+
+                    {/* <div className={cls.strCard}>
                         <img src={card1} alt="" />
                         <span className={cls.info}>
                             By
@@ -41,7 +62,7 @@ const Strategies = () => {
                             |  03 March 2019
                         </span>
                         <span className={cls.nameStr}>Increasing Prosperity With Positive Thinking</span>
-                    </div>
+                    </div> */}
                 </div>
                 <div className={cls.dots}>
                     <Dots />

@@ -19,7 +19,7 @@
 }
 
 .pricingText {
-    max-width: 537px;
+    width: 537px;
     color: #22343D;
     font-family: Poppins;
     font-size: 16px;
@@ -141,4 +141,8 @@
     line-height: 19px;
     letter-spacing: 0.1px;
 
+}
+
+.star {
+    display: flex;
 }

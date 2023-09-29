@@ -53,7 +53,7 @@
     outline: none;
     background-color: transparent;
     cursor: pointer;
-    margin-left: 24px;
+    margin-left: 14px;
 }
 
 .burgerBtn {
@@ -66,7 +66,7 @@
 
 @media screen and (max-width: 925px) {
     .navbarList {
-        column-gap: 15px;
+        column-gap: 5px;
     }
 }
 
@@ -95,7 +95,6 @@
     .navbarList {
         flex-direction: column;
         row-gap: 15px;
-        column-gap: 0;
     }
 
     .burgerBtn {
@@ -108,20 +107,13 @@
     }
 
     .modeBtn {
-        margin-top: 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
+        // margin-top: 16px;
+        margin: 0 auto;
     }
 
     .authBtn {
         margin-top: 16px;
         border: none;
-        margin-left: 0;
-
-
     }
 
     .headerContent {
@@ -137,5 +129,9 @@
 @media screen and (max-width:950px) {
     .navbarList {
         column-gap: 12px;
+    }
+
+    .authBtn {
+        margin-left: 14px;
     }
 }
