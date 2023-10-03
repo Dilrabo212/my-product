@@ -1,0 +1,262 @@
+.wrp {
+    margin-top: 100px;
+    width: 100vw;
+    background-image: url(../../assets/images/Rectangle.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.enterprise {
+    max-width: 100%;
+    min-height: 318px;
+    flex-shrink: 0;
+    margin-bottom: 62px;
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.entTitle {
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 53px;
+}
+
+.entText {
+    margin: 0 auto;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subTitle {
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 43px;
+}
+
+.wrapper {
+
+    margin-top: 80px;
+    margin-bottom: 150px;
+
+}
+
+.entText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 878px;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.entflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.imgContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    margin-left: 100px;
+}
+
+.img2 {
+    display: none;
+}
+
+.img1 {
+    display: block;
+
+}
+
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexText {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.entTexT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 878px;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+
+.entTitleS {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.subTitleP {
+    max-width: 500px;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 39px;
+}
+
+@media screen and (max-width:1303px) {
+    .entflex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .textContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1091px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .textContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-align: center;
+    }
+
+    .subTitleP,
+    .entTexT,
+    .entText,
+    .entTitleS,
+    .subTitle {
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
+        max-width: 500px;
+        margin-bottom: 39px;
+    }
+
+
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+}
+
+.quest {
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 16px;
+
+}
+
+.flexQuest {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 30px;
+
+}
+
+.subTitleQ {
+    max-width: 920px;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.hr {
+    max-width: 1000px;
+    height: 1px;
+    background-color: #22343D;
+    opacity: 0.2;
+    margin-bottom: 16px;
+}

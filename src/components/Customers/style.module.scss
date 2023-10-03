@@ -1,0 +1,383 @@
+.partnyors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 125px;
+}
+
+.clientLogos {
+    display: flex;
+    column-gap: 64px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 117px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.logoBox {
+    padding: 20px;
+}
+
+.wrp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.section2 {
+    background-color: #F5F5F5;
+    padding-bottom: 68px;
+
+
+}
+
+.BuildTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.productBuildTitle {
+    color: #22343D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.card {
+    padding-top: 32px;
+    width: 350px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    padding: 35px;
+    padding-bottom: 10px;
+}
+
+.cardTitle {
+    max-width: 294px;
+    flex-shrink: 0;
+    color: #22343D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    /* 137.5% */
+    letter-spacing: 0.1px;
+    margin-top: 25px;
+    margin-bottom: 16px;
+
+}
+
+.cardText {
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 13px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.productTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #22343D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+    margin-bottom: 73px;
+}
+
+.stepWrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    column-gap: 90px;
+}
+
+.stepWrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    column-gap: 90px;
+}
+
+.textContent {
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.step {
+    color: #22343D;
+    // text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.stepTitle {
+    color: #22343D;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.stepDescription {
+    max-width: 438px;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.titleWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    max-width: 537px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    column-gap: 227px;
+}
+
+.card1,
+.text,
+.subtitle {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card1 {
+    margin-bottom: 40px;
+}
+
+.img {
+    min-width: 150px;
+    max-height: 150px;
+}
+
+
+.text {
+    color: #22343D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    row-gap: 12px;
+
+}
+
+.subtitle {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 27px;
+}
+
+.textButton {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1180px) {
+    .cards {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:1075px) {
+    .stepWrapper2 {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .clientLogos {
+        row-gap: 32px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productBuildTitle {
+        width: 331px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .productBuild {
+        margin-bottom: 90px;
+        padding-bottom: 90px;
+    }
+}

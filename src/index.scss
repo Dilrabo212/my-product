@@ -9,7 +9,7 @@
 
 .body {
   font-family: $main-font-family;
-  background-color: #fff;
+  background-color: $main-color;
   color: $main-color;
 }
 
@@ -22,4 +22,21 @@ a {
   max-width: 1500px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+body[data-theme="dark"] {
+  background-color: $dark-green;
+  color: $main-color;
+}
+
+body[data-theme="light"] {
+  background-color: $main-color;
+  color: $dark-green;
+}
+
+@media (prefens-color-scheme: dark) {
+  .body {
+    background-color: $dark-green;
+    color: $main-color;
+  }
 }

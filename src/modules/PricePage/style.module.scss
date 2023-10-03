@@ -20,6 +20,7 @@
     font-weight: 700;
     line-height: normal;
     padding-top: 10px;
+    padding-bottom: 16px;
 }
 
 .pricingText {
@@ -44,12 +45,13 @@
 
 // 
 
-.priceSubTitle {
+.pricingTitleH2 {
     color: #22343D;
-    text-align: center;
     font-family: Poppins;
-    font-size: 40px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
+    margin-bottom: 16px;
+    margin-top: 50px;
 }

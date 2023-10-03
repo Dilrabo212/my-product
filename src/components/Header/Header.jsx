@@ -5,11 +5,27 @@ import { clsx } from 'clsx'
 import { GreenButton, LightButton } from '../Buttons'
 import { useState } from 'react'
 
+const elModeToggler = document.querySelector('.modeBtn')
+const elBody = document.querySelector('body')
+
+
+
 export const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen)
   }
+  const [toggleMode, setToggleMode] = useState(false)
+
+  const togglerMode = () => {
+    setToggleMode(!toggleMode)
+  }
+  console.log(toggleMode);
+
+  // elModeToggler.addEventListener('click', () => {
+  //   console.log(elBody)
+  // })
+
   return (
     <>
       <header className={clsx(cls.header, 'container')}>
@@ -21,7 +37,7 @@ export const Header = () => {
               <ul className={cls.navbarList}>
                 <li className={cls.listItem}>
 
-                  <NavLink className={({ isActive }) => clsx(cls.navLink, { [cls.active]: isActive })} to="/product">  Product</NavLink>
+                  <NavLink className={({ isActive }) => clsx(cls.navLink, { [cls.active]: isActive })} to="/">  Product</NavLink>
                 </li>
                 <li className={cls.listItem}>
 
@@ -39,7 +55,7 @@ export const Header = () => {
             </div>
             <div className={cls.authBtn}><LightButton>Sign In</LightButton></div>
             <div className={cls.authBtn}><GreenButton>Sign Up</GreenButton></div>
-            <button className={cls.modeBtn}><Mode /></button>
+            <button className={cls.modeBtn} onClick={togglerMode} ><Mode /></button>
           </div>
           <button className={cls.burgerBtn} onClick={toggleNav}>
             <Burger className={cls.burger} />

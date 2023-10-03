@@ -35,34 +35,6 @@ const Strategies = () => {
                         date="03 March 2019"
                         description="Increasing Prosperity With Positive"
                     />
-
-                    {/* <div className={cls.strCard}>
-                        <img src={card1} alt="" />
-                        <span className={cls.info}>
-                            By
-                            <b className={cls.bold}>Wahid Ari</b>
-                            |  03 March 2019
-                        </span>
-                        <span className={cls.nameStr}>Increasing Prosperity With Positive Thinking</span>
-                    </div>
-                    <div className={cls.strCard}>
-                        <img src={card2} alt="" />
-                        <span className={cls.info}>
-                            By
-                            <b className={cls.bold}>Wahid Ari</b>
-                            |  03 March 2019
-                        </span>
-                        <span className={cls.nameStrChecked}>Increasing Prosperity With Positive Thinking</span>
-                    </div>
-                    <div className={cls.strCard}>
-                        <img src={card3} alt="" />
-                        <span className={cls.info}>
-                            By
-                            <b className={cls.bold}>Wahid Ari</b>
-                            |  03 March 2019
-                        </span>
-                        <span className={cls.nameStr}>Increasing Prosperity With Positive Thinking</span>
-                    </div> */}
                 </div>
                 <div className={cls.dots}>
                     <Dots />
