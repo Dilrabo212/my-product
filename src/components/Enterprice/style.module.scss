@@ -1,3 +1,4 @@
+@import '../../sass/variables.scss';
 .wrp {
     margin-top: 100px;
     width: 100vw;
@@ -21,7 +22,7 @@
 }
 
 .entTitle {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
@@ -32,7 +33,7 @@
 
 .entText {
     margin: 0 auto;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 34px;
     font-style: normal;
@@ -41,7 +42,7 @@
 }
 
 .subTitle {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
@@ -63,7 +64,7 @@
     align-items: center;
     justify-content: center;
     max-width: 878px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 34px;
     font-style: normal;
@@ -114,7 +115,7 @@
     align-items: center;
     justify-content: center;
     max-width: 878px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 34px;
     font-style: normal;
@@ -129,7 +130,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
@@ -140,7 +141,7 @@
 
 .subTitleP {
     max-width: 500px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -225,7 +226,7 @@
 }
 
 .quest {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
@@ -244,7 +245,7 @@
 
 .subTitleQ {
     max-width: 920px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -256,7 +257,7 @@
 .hr {
     max-width: 1000px;
     height: 1px;
-    background-color: #22343D;
+    background-color:$light-green;
     opacity: 0.2;
     margin-bottom: 16px;
 }

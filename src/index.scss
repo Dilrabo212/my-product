@@ -40,3 +40,9 @@ body[data-theme="light"] {
     color: $main-color;
   }
 }
+@media (prefens-color-scheme: light) {
+  .body {
+    background-color: $main-color;
+    color: $dark-green;
+  }
+}

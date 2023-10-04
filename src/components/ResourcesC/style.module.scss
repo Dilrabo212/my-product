@@ -1,3 +1,4 @@
+@import '../../sass/variables.scss';
 .sectio1Wrp {
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,7 @@
 
 .titleRes {
     max-width: 380px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 40px;
     font-style: normal;
@@ -27,7 +28,7 @@
 
 .subTitleRes {
     max-width: 535px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -51,7 +52,7 @@
 .input {
     min-width: 65%;
     border: none;
-    color: #22343D;
+    color:$light-green;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
     font-size: 16px;
@@ -71,11 +72,11 @@
     gap: 10px;
     flex-shrink: 0;
     border-radius: 100px;
-    background: #02897A;
+    background: $secondary-color;
     border: none;
-    color: #FFF;
+    color:$main-color;
     margin-right: 10px;
-    color: #FFF;
+    color:$main-color;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
     font-size: 16px;
@@ -91,7 +92,7 @@
 }
 
 .subscribe {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
@@ -100,7 +101,7 @@
 }
 
 .countGreen {
-    color: #02897A;
+    color: $secondary-color;
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
@@ -121,7 +122,7 @@
 }
 
 .titleSextion2 {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 34px;
     font-style: normal;
@@ -131,7 +132,7 @@
 
 .subTitle {
     max-width: 693px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -148,7 +149,7 @@
 }
 
 .next {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
@@ -234,7 +235,7 @@
     margin: 0 auto;
     border-radius: 20px;
     border: 1px solid #DDD;
-    background: #FFF;
+    background:$main-color;
     width: 868px;
     flex-shrink: 0;
     align-self: stretch;
@@ -260,7 +261,7 @@
     border-radius: 39px;
     border: 1px solid #E8E8E8;
     background: #F5F5F5;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 15px;
     font-style: normal;
@@ -279,7 +280,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 47px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 15px;
     font-style: normal;
@@ -297,8 +298,8 @@
     align-items: center;
     gap: 10px;
     border-radius: 35px;
-    background: #02897A;
-    color: #FFF;
+    background: $secondary-color;
+    color:$main-color;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;

@@ -1,3 +1,4 @@
+@import '../../sass/variables.scss';
 .management {
     width: 100%;
 
@@ -17,7 +18,7 @@
 
 .subTitle {
     margin-bottom: 10px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -26,7 +27,7 @@
 }
 
 .mainTitle {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 32px;
     font-style: normal;
@@ -36,7 +37,7 @@
 }
 
 .mainText {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;

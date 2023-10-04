@@ -1,3 +1,4 @@
+@import '../../sass/variables.scss';
 .footer {
     width: 100%;
     display: flex;
@@ -39,7 +40,7 @@
     width: 280px;
     height: 57px;
     flex-shrink: 0;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -49,10 +50,10 @@
 }
 
 .footerTitle {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-weight: bold;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -69,7 +70,7 @@
 .footerLink {
     list-style: none;
     text-decoration: none;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -84,7 +85,7 @@
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid #BCD0E5;
-    background: #FFF;
+    background:$main-color;
     outline: none;
     // margin-top: 44px;
     // margin-bottom: 29px;
@@ -98,7 +99,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;

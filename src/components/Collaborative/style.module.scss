@@ -1,3 +1,4 @@
+@import '../../sass/variables.scss';
 .collaborative {
     width: 100%;
 
@@ -18,7 +19,7 @@
 }
 
 .subTitle {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -28,7 +29,7 @@
 }
 
 .mainTitle {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 32px;
     font-style: normal;
@@ -39,7 +40,7 @@
 
 .text {
     width: 486px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;

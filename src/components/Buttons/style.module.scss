@@ -1,3 +1,4 @@
+@import '../../sass/variables.scss';
 .lightButton {
     padding: 15px 34px;
     flex-shrink: 0;
@@ -15,8 +16,8 @@
     padding: 15px 34px;
     flex-shrink: 0;
     border-radius: 4px;
-    background: #02897A;
-    color: #FFF;
+    background: $secondary-color;
+    color:$main-color;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
@@ -29,7 +30,7 @@
     border: none;
     outline: none;
     background-color: transparent;
-    color: #02897A;
+    color: $secondary-color;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;

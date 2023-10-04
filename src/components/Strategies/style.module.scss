@@ -1,3 +1,4 @@
+@import '../../sass/variables.scss';
 .strWrap {
     display: flex;
     flex-direction: column;
@@ -6,7 +7,7 @@
 }
 
 .strTitle {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 34px;
     font-style: normal;
@@ -17,7 +18,7 @@
 
 .strText {
     max-width: 693px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -44,7 +45,7 @@
 
 .info {
     margin-top: 24px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -54,7 +55,7 @@
 }
 
 .bold {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -68,7 +69,7 @@
     max-width: 294px;
     height: 70px;
     flex-shrink: 0;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
@@ -81,7 +82,7 @@
     max-width: 294px;
     height: 70px;
     flex-shrink: 0;
-    color: #02897A;
+    color: $secondary-color;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;

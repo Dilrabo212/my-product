@@ -1,10 +1,12 @@
+
+@import '../../sass/variables.scss';
 .partnyors {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 40px;
     font-style: normal;
@@ -55,7 +57,7 @@
 }
 
 .productBuildTitle {
-    color: #22343D;
+    color:$light-green;
     text-align: center;
     font-family: Poppins;
     font-size: 34px;
@@ -87,7 +89,7 @@
 .cardTitle {
     max-width: 294px;
     flex-shrink: 0;
-    color: #22343D;
+    color:$light-green;
     text-align: center;
     font-family: Poppins;
     font-size: 24px;
@@ -102,7 +104,7 @@
 }
 
 .cardText {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -123,7 +125,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #22343D;
+    color:$light-green;
     text-align: center;
     font-family: Poppins;
     font-size: 34px;
@@ -161,7 +163,7 @@
 }
 
 .step {
-    color: #22343D;
+    color:$light-green;
     // text-align: center;
     font-family: Poppins;
     font-size: 20px;
@@ -171,7 +173,7 @@
 }
 
 .stepTitle {
-    color: #22343D;
+    color:$light-green;
     margin-bottom: 16px;
     margin-top: 16px;
     font-family: Poppins;
@@ -183,7 +185,7 @@
 
 .stepDescription {
     max-width: 438px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -196,7 +198,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFF;
+    color:$main-color;
     font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
@@ -219,7 +221,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 32px;
     font-style: normal;
@@ -259,7 +261,7 @@
 
 
 .text {
-    color: #22343D;
+    color:$light-green;
     text-align: center;
     font-family: Poppins;
     font-size: 18px;

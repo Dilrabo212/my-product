@@ -1,3 +1,4 @@
+@import '../../sass/variables.scss';
 .prosses {
     width: 100vw;
     background-image: url('../../assets/svg/BG2.svg');
@@ -19,7 +20,7 @@
 }
 
 .proTitle {
-    color: #22343D;
+    color:$light-green;
     text-align: center;
     font-family: Poppins;
     font-size: 32px;
@@ -31,7 +32,7 @@
 
 .proText {
     width: 542px;
-    color: #22343D;
+    color:$light-green;
     text-align: center;
     font-family: Poppins;
     font-size: 16px;
@@ -90,7 +91,7 @@
     height: 53px;
     position: relative;
     border-radius: 26.5px;
-    background: #FFF;
+    background:$main-color;
     box-shadow: 0px 2px 15px 0px rgba(23, 58, 86, 0.10);
     display: flex;
     align-items: center;

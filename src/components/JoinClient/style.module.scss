@@ -1,5 +1,6 @@
+@import '../../sass/variables.scss';
 .join {
-    background-color: #fff;
+    background-color:$main-color;
     padding-bottom: 150px;
 
 }
@@ -11,7 +12,7 @@
     height: 345px;
     flex-shrink: 0;
     border-radius: 32px;
-    background: #02897A;
+    background: $secondary-color;
     margin: 0 auto;
 }
 
@@ -26,13 +27,13 @@
 
 .textContentTitle {
     flex-shrink: 0;
-    color: #fff;
+    color:$main-color;
     margin-bottom: 15px;
 }
 
 .product {
     flex-shrink: 0;
-    color: #fff;
+    color:$main-color;
     margin-bottom: 25px;
 
 }

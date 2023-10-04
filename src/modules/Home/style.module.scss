@@ -1,3 +1,4 @@
+@import '../../sass/variables.scss';
 .flex {
     width: 100%;
     display: flex;
@@ -13,7 +14,7 @@
 }
 
 .mainTitle {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 40px;
     font-style: normal;
@@ -23,7 +24,7 @@
 }
 
 .mainText {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;

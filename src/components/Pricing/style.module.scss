@@ -1,3 +1,4 @@
+@import '../../sass/variables.scss';
 .pricing {
     width: 100%;
     height: 100%;
@@ -13,7 +14,7 @@
 }
 
 .pricingTitle {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 34px;
     font-style: normal;
@@ -23,7 +24,7 @@
 }
 
 .pricingText {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -45,7 +46,7 @@
 // 
 
 .priceSubTitle {
-    color: #22343D;
+    color:$light-green;
     text-align: center;
     font-family: Poppins;
     font-size: 40px;

@@ -1,3 +1,5 @@
+
+@import '../../sass/variables.scss';
 .center {
     display: flex;
     justify-content: center;
@@ -9,7 +11,7 @@
 .pricingTitle {
     width: 302px;
     height: 57px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 34px;
     font-style: normal;
@@ -20,7 +22,7 @@
 
 .pricingText {
     max-width: 537px;
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -48,7 +50,7 @@
     flex-shrink: 0;
     border-radius: 5px;
     border: 1px solid #DEDEDE;
-    background: var(--light-background, #FFF);
+    background: var(--light-background,$main-color);
     display: flex;
     flex-direction: column;
     padding: 24px 26px;
@@ -58,7 +60,7 @@
 
 
 .cart {
-    color: #22343D;
+    color:$light-green;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
@@ -90,7 +92,7 @@
 }
 
 .price {
-    color: #02897A;
+    color: $secondary-color;
     text-align: center;
     font-family: Poppins;
     font-size: 76px;
@@ -122,7 +124,7 @@
     width: 81px;
     height: 24px;
     flex-shrink: 0;
-    color: #02897A;
+    color: $secondary-color;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
